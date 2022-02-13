@@ -1,7 +1,7 @@
 import "./App.css";
 import styled from "styled-components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { TitleScreen } from "./views";
+import { Game, TitleScreen } from "./views";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <PageContainer>
         <Routes>
           <Route path="/" element={<TitleScreen />} />
+          <Route path="/play" element={<Game />} />
         </Routes>
       </PageContainer>
     </BrowserRouter>
