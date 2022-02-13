@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useSpring, animated } from "react-spring";
+// import { useSpring, animated } from "react-spring";
 import { StyledBtn } from "../components";
 
 /** The view that displays the "Title Screen" or the "Main Menu" of the game. (Landing Page) */
